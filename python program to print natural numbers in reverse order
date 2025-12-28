@@ -1,0 +1,16 @@
+# 1) python program to print natural numbers in reverse order
+
+n =int(input("enter a number :"))
+
+#print naturl numbers from 1 to n
+for i in range(n, 0, -1):
+  print(i)
+
+# 2) python program to print natural numbers in reverse order using while loop
+
+n =int(input("enter a number :"))
+
+while n >= 1:
+  print(n)
+  n -= 1
+

@@ -1,0 +1,29 @@
+# 1) Python Program to Print Fibonacci Series Using For Loop
+
+n = int(input("enter number of terms: "))
+
+a = 0
+b = 1
+
+print("Fibonacci Series:")
+for i in range(n):
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
+
+# 2) Pytho Program to Print Fibonacci Series Using While Loop
+
+n = int(input("enter number of terms: "))
+
+a = 0
+b = 1
+i = 0
+
+print("Fibonacci Series:")
+while i < n:
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
+    i += 1

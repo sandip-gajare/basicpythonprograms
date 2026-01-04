@@ -1,0 +1,26 @@
+# 1) Python Program to find Sum of Arithmetic Progression Series
+
+a = int(input("enter first term (a): "))
+d = int(input("enter common difference (d): "))
+n = int(input("enter number of terms (n): "))
+
+# Formula to calculate sum of AP
+sum_ap = n * (2 * a + (n - 1) * d) // 2
+
+print("Sum of Arithmetic Progression Series =", sum_ap)
+
+# 2) #Python Program to find Sum of Arithmetic Progression Series using While Loop
+
+a = int(input("enter the first term (a): "))
+d = int(input("enter the common difference (d): "))
+n = int(input("enter number of terms (n): "))
+
+sum_ap = 0
+i = 1
+
+while i <= n:
+    term = a + (i - 1) * d
+    sum_ap += term
+    i += 1
+
+print("Sum of Arithmetic Progression =", sum_ap)

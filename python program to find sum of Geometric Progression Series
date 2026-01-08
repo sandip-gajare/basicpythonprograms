@@ -1,0 +1,12 @@
+#Python Program to find Sum of Geometric Progression Series
+
+a = float(input("enter first term (a): "))
+r = float(input("enter common ratio (r): "))
+n = int(input("enter number of terms (n): "))
+
+if r == 1:
+    sum_gp = a * n
+else:
+    sum_gp = a * (r**n - 1) / (r - 1)
+
+print("Sum of Geometric Progression Series =", sum_gp)
